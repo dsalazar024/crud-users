@@ -1,0 +1,37 @@
+{
+  "name": "blautech",
+  "version": "1.0.0",
+  "description": "This a project for blautech",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Salazar",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-react-transform": "^3.0.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
